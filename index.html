@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rahul Chitala personal portfolio - Full-Stack Developer building PHP, CodeIgniter, Laravel, React, MySQL, CRM, SaaS, AI automation, and server-managed web applications.">
+  <meta name="keywords" content="Rahul Chitala, Full-Stack Developer, PHP Developer, CodeIgniter Developer, Laravel Developer, CRM Developer, SaaS Developer, Hyderabad, AI Automation">
+  <meta name="author" content="Rahul Chitala">
+  <meta property="og:title" content="Rahul Chitala | Full-Stack Developer Portfolio">
+  <meta property="og:description" content="Personal portfolio of Rahul Chitala, full-stack developer specializing in PHP, CodeIgniter, Laravel, CRMs, SaaS products, AI automation, and server management.">
+  <meta property="og:image" content="assets/rahul-hero.png">
+  <meta name="theme-color" content="#7c3aed">
+  <title>Rahul Chitala | Full-Stack Developer Portfolio</title>
+  <link rel="icon" href="assets/rahul-hero.png" type="image/png+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="preloader" class="preloader" role="status" aria-live="polite" aria-label="Loading Rahul Chitala's portfolio">
+    <div class="loader" aria-hidden="true">
+      <span><span></span><span></span><span></span><span></span></span>
+      <div class="base">
+        <span></span>
+        <div class="face"></div>
+      </div>
+    </div>
+
+    <div class="longfazers" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="preloader-progress">
+      <span class="preloader-percent" id="preloaderPercent">0%</span>
+      <span class="preloader-bar"><span class="preloader-bar-fill" id="preloaderFill"></span></span>
+      <span class="preloader-label">Loading portfolio</span>
+    </div>
+  </div>
+
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="ambient-layer" aria-hidden="true"></div>
+
+  <header class="navbar navbar-expand-lg fixed-top portfolio-nav">
+    <div class="container-xl">
+      <div class="nav-shell">
+        <a class="navbar-brand brand-mark" href="#home" aria-label="Rahul Chitala home">
+          <img src="assets/rahul-hero.png" alt="">
+          <span>
+            <strong>Rahul Chitala</strong>
+            <small>Full-Stack Developer</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <nav class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mx-lg-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#what-i-do">What I Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a class="nav-cta d-none d-lg-inline-flex" href="#contact"><i class="bi bi-send"></i> Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section section-pad" id="home">
+      <canvas id="dotFieldCanvas" aria-hidden="true"></canvas>
+      <div class="container-xl">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 hero-copy-col">
+            <div class="hero-copy reveal">
+              <p class="kicker"><span class="kicker-dot"></span><span class="kicker-text">Full-Stack Developer - PHP, CodeIgniter, Laravel</span></p>
+              <div class="mobile-portrait-badge">
+                <img src="assets/rahul-hero.png" alt="Rahul Chitala portrait">
+                <div>
+                  <strong>Rahul Chitala</strong>
+                  <span>CRM, SaaS, AI and server-backed apps</span>
+                </div>
+              </div>
+              <h1 class="hero-title">
+                <span class="title-lead">Hi, I'm</span>
+                <span class="name-highlight" data-letter-wave>Rahul Chitala</span><span class="title-dot">.</span>
+              </h1>
+              <p class="role-line">I am a <strong id="typedRole">CRM Builder</strong></p>
+              <p class="hero-text">
+                I build practical websites, CRMs, SaaS dashboards, WhatsApp workflows, AI automations,
+                and server-managed web applications for real business use.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-violet" href="#portfolio"><i class="bi bi-grid-1x2"></i> View Portfolio</a>
+                <a class="btn btn-outline-soft" href="#contact"><i class="bi bi-send"></i> Contact Me</a>
+              </div>
+              <div class="hero-stats" aria-label="Portfolio highlights">
+                <div><i class="bi bi-clock-history"></i><strong data-count="3" data-suffix="+">3+</strong><span>Years Experience</span></div>
+                <div><i class="bi bi-kanban"></i><strong data-count="7" data-suffix="+">7+</strong><span>Major Projects</span></div>
+                <div><i class="bi bi-diagram-3"></i><strong data-count="4">4</strong><span>Business Verticals</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 hero-visual-col">
+            <div class="portrait-stage reveal">
+              <div class="portrait-card">
+                <div class="portrait-ring">
+                  <img src="assets/rahul-hero.png" alt="Rahul Chitala portrait">
+                </div>
+                <div class="portrait-caption">
+                  <span>Based in Hyderabad</span>
+                  <strong>Full-stack PHP developer focused on CRM, SaaS, AI and servers.</strong>
+                </div>
+              </div>
+              <div class="floating-chip chip-a"><i class="devicon-php-plain"></i> PHP</div>
+              <div class="floating-chip chip-b"><i class="devicon-codeigniter-plain"></i> CodeIgniter</div>
+              <div class="floating-chip chip-c"><i class="bi bi-robot"></i> AI Flows</div>
+              <div class="floating-chip chip-d"><i class="bi bi-hdd-network"></i> Servers</div>
+              <div class="code-window">
+                <div class="window-dots"><span></span><span></span><span></span></div>
+                <code>rahul.build({ stack: "PHP + MySQL", focus: "CRM + SaaS + AI" });</code>
+              </div>
+              <div class="mobile-hero-pills" aria-label="Core skills">
+                <span><i class="devicon-php-plain"></i> PHP</span>
+                <span><i class="devicon-codeigniter-plain"></i> CodeIgniter</span>
+                <span><i class="bi bi-robot"></i> AI Flows</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="logo-rail" aria-label="Technology stack">
+      <div class="rail-row">
+        <div class="rail-track">
+          <div class="rail-group">
+            <span data-brand="php"><img class="brand-logo" src="https://cdn.simpleicons.org/php/777BB4" alt=""> PHP</span>
+            <span data-brand="codeigniter"><img class="brand-logo" src="https://cdn.simpleicons.org/codeigniter/EF4223" alt=""> CodeIgniter 3 & 4</span>
+            <span data-brand="laravel"><img class="brand-logo" src="https://cdn.simpleicons.org/laravel/FF2D20" alt=""> Laravel</span>
+            <span data-brand="api">REST APIs</span>
+            <span data-brand="mysql"><img class="brand-logo" src="https://cdn.simpleicons.org/mysql/4479A1" alt=""> MySQL</span>
+            <span data-brand="html"><img class="brand-logo" src="https://cdn.simpleicons.org/html5/E34F26" alt=""> HTML5</span>
+            <span data-brand="css"><img class="brand-logo" src="https://cdn.simpleicons.org/css/1572B6" alt=""> CSS3</span>
+            <span data-brand="javascript"><img class="brand-logo" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt=""> JavaScript</span>
+            <span data-brand="react"><img class="brand-logo" src="https://cdn.simpleicons.org/react/61DAFB" alt=""> React</span>
+            <span data-brand="bootstrap"><img class="brand-logo" src="https://cdn.simpleicons.org/bootstrap/7952B3" alt=""> Bootstrap</span>
+          </div>
+          <div class="rail-group" aria-hidden="true">
+            <span data-brand="php"><img class="brand-logo" src="https://cdn.simpleicons.org/php/777BB4" alt=""> PHP</span>
+            <span data-brand="codeigniter"><img class="brand-logo" src="https://cdn.simpleicons.org/codeigniter/EF4223" alt=""> CodeIgniter 3 & 4</span>
+            <span data-brand="laravel"><img class="brand-logo" src="https://cdn.simpleicons.org/laravel/FF2D20" alt=""> Laravel</span>
+            <span data-brand="api">REST APIs</span>
+            <span data-brand="mysql"><img class="brand-logo" src="https://cdn.simpleicons.org/mysql/4479A1" alt=""> MySQL</span>
+            <span data-brand="html"><img class="brand-logo" src="https://cdn.simpleicons.org/html5/E34F26" alt=""> HTML5</span>
+            <span data-brand="css"><img class="brand-logo" src="https://cdn.simpleicons.org/css/1572B6" alt=""> CSS3</span>
+            <span data-brand="javascript"><img class="brand-logo" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt=""> JavaScript</span>
+            <span data-brand="react"><img class="brand-logo" src="https://cdn.simpleicons.org/react/61DAFB" alt=""> React</span>
+            <span data-brand="bootstrap"><img class="brand-logo" src="https://cdn.simpleicons.org/bootstrap/7952B3" alt=""> Bootstrap</span>
+          </div>
+        </div>
+      </div>
+      <div class="rail-row rail-row-reverse">
+        <div class="rail-track">
+          <div class="rail-group">
+            <span data-brand="claude"><img class="brand-logo" src="https://cdn.simpleicons.org/claude/D97757" alt=""> Claude</span>
+            <span data-brand="openai"><span class="brand-logo brand-mask logo-openai"></span> ChatGPT API</span>
+            <span data-brand="elevenlabs"><img class="brand-logo" src="https://cdn.simpleicons.org/elevenlabs/FFFFFF" alt=""> Eleven Labs</span>
+            <span data-brand="vapi"><img class="brand-logo" src="https://vapi.ai/brand/img/full-logo-square-1.svg" alt=""> VAPI</span>
+            <span data-brand="n8n"><img class="brand-logo" src="https://cdn.simpleicons.org/n8n/EA4B71" alt=""> n8n</span>
+            <span data-brand="vertex"><img class="brand-logo" src="https://cdn.simpleicons.org/googlecloud/4285F4" alt=""> Vertex AI</span>
+            <span data-brand="cpanel"><img class="brand-logo" src="https://cdn.simpleicons.org/cpanel/FF6C2C" alt=""> cPanel</span>
+            <span data-brand="whm"><img class="brand-logo" src="https://cdn.simpleicons.org/cpanel/FF6C2C" alt=""> WHM</span>
+            <span data-brand="figma"><img class="brand-logo" src="https://cdn.simpleicons.org/figma/F24E1E" alt=""> Figma</span>
+            <span data-brand="photoshop"><span class="brand-logo brand-mask logo-photoshop"></span> Adobe Photoshop</span>
+            <span data-brand="illustrator"><span class="brand-logo brand-mask logo-illustrator"></span> Adobe Illustrator</span>
+            <span data-brand="webflow"><img class="brand-logo" src="https://cdn.simpleicons.org/webflow/4353FF" alt=""> Webflow</span>
+          </div>
+          <div class="rail-group" aria-hidden="true">
+            <span data-brand="claude"><img class="brand-logo" src="https://cdn.simpleicons.org/claude/D97757" alt=""> Claude</span>
+            <span data-brand="openai"><span class="brand-logo brand-mask logo-openai"></span> ChatGPT API</span>
+            <span data-brand="elevenlabs"><img class="brand-logo" src="https://cdn.simpleicons.org/elevenlabs/FFFFFF" alt=""> Eleven Labs</span>
+            <span data-brand="vapi"><img class="brand-logo" src="https://vapi.ai/brand/img/full-logo-square-1.svg" alt=""> VAPI</span>
+            <span data-brand="n8n"><img class="brand-logo" src="https://cdn.simpleicons.org/n8n/EA4B71" alt=""> n8n</span>
+            <span data-brand="vertex"><img class="brand-logo" src="https://cdn.simpleicons.org/googlecloud/4285F4" alt=""> Vertex AI</span>
+            <span data-brand="cpanel"><img class="brand-logo" src="https://cdn.simpleicons.org/cpanel/FF6C2C" alt=""> cPanel</span>
+            <span data-brand="whm"><img class="brand-logo" src="https://cdn.simpleicons.org/cpanel/FF6C2C" alt=""> WHM</span>
+            <span data-brand="figma"><img class="brand-logo" src="https://cdn.simpleicons.org/figma/F24E1E" alt=""> Figma</span>
+            <span data-brand="photoshop"><span class="brand-logo brand-mask logo-photoshop"></span> Adobe Photoshop</span>
+            <span data-brand="illustrator"><span class="brand-logo brand-mask logo-illustrator"></span> Adobe Illustrator</span>
+            <span data-brand="webflow"><img class="brand-logo" src="https://cdn.simpleicons.org/webflow/4353FF" alt=""> Webflow</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-video-section" id="about">
+      <div class="about-video-shell">
+        <div class="container-xl">
+          <div class="about-video-layout">
+            <div class="about-video-copy reveal">
+              <span class="section-pill">About Me</span>
+              <h2 data-split>Full-stack developer building business-ready web systems.</h2>
+              <p>
+                I am a full-stack developer from Hyderabad with 3+ years of experience building client
+                websites, CRMs, SaaS products, dashboards, automation tools, and PHP/MySQL applications.
+              </p>
+              <p>
+                My strength is handling the complete delivery path: UI design, frontend, backend,
+                database, API integrations, deployment, cPanel/WHM, VPS, SSL, domains, and Linux server maintenance.
+              </p>
+              <div class="about-video-tags" aria-label="About focus areas">
+                <span>PHP</span>
+                <span>CodeIgniter</span>
+                <span>Laravel</span>
+                <span>CRM</span>
+                <span>AI Automation</span>
+              </div>
+            </div>
+
+            <div class="about-ripple-stage reveal" aria-hidden="true">
+              <div class="ripple-video-frame">
+                <video
+                  class="ripple-video"
+                  src="assets/about-ripple.mp4"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="auto"
+                ></video>
+                <canvas class="ripple-canvas"></canvas>
+                <div class="ripple-video-shade"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad soft-band" id="what-i-do">
+      <div class="container-xl">
+        <div class="section-title reveal">
+          <span>What I Do</span>
+          <h2 data-split>Clear, useful development work.</h2>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <span class="card-number">01</span>
+            <i class="bi bi-window-sidebar"></i>
+            <h3>Websites & UI</h3>
+            <p>Static, dynamic, and admin websites with responsive Bootstrap UI, clean layouts, and Figma/Photoshop support.</p>
+          </article>
+          <article class="work-card reveal">
+            <span class="card-number">02</span>
+            <i class="bi bi-code-square"></i>
+            <h3>PHP Backend</h3>
+            <p>CodeIgniter 3 & 4, Laravel, REST APIs, MySQL databases, authentication, role access, and business modules.</p>
+          </article>
+          <article class="work-card reveal">
+            <span class="card-number">03</span>
+            <i class="bi bi-kanban"></i>
+            <h3>CRM Development</h3>
+            <p>Lead, client, job, candidate, booking, invoice, service request, and dashboard workflows for teams.</p>
+          </article>
+          <article class="work-card reveal">
+            <span class="card-number">04</span>
+            <i class="bi bi-box"></i>
+            <h3>SaaS Products</h3>
+            <p>Subscription products, marketing tools, finance tools, role-based accounts, reporting, and user management.</p>
+          </article>
+          <article class="work-card reveal">
+            <span class="card-number">05</span>
+            <i class="bi bi-robot"></i>
+            <h3>AI Automation</h3>
+            <p>ChatGPT API, Claude, ElevenLabs, VAPI, n8n, Vertex AI, chatbots, AI call agents, and lead handling flows.</p>
+          </article>
+          <article class="work-card reveal">
+            <span class="card-number">06</span>
+            <i class="bi bi-server"></i>
+            <h3>Servers & Deployment</h3>
+            <p>VPS, Linux, cPanel, WHM, WHMCS, SSL certificates, domains, hosting setup, deployment, and maintenance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="resume">
+      <div class="container-xl">
+        <div class="section-title reveal">
+          <span>Resume</span>
+          <h2 data-split>Experience and technical stack.</h2>
+        </div>
+
+        <div class="resume-layout">
+          <div class="timeline reveal">
+            <h3>Experience</h3>
+
+            <div class="exp-tabs" role="tablist" aria-label="Select a role to view">
+              <span class="exp-tab-indicator" aria-hidden="true"></span>
+              <button class="exp-tab is-active" type="button" role="tab" aria-selected="true" data-exp-index="0">
+                <span class="exp-tab-full">Jan 2026 – Present</span>
+                <span class="exp-tab-short">2026 – Present</span>
+              </button>
+              <button class="exp-tab" type="button" role="tab" aria-selected="false" data-exp-index="1">
+                <span class="exp-tab-full">Aug 2023 – Dec 2025</span>
+                <span class="exp-tab-short">2023 – 2025</span>
+              </button>
+            </div>
+
+            <div class="exp-stack">
+              <article class="exp-panel is-active" data-exp-panel="0">
+                <div class="exp-panel-glow" aria-hidden="true"></div>
+                <div class="exp-panel-dots" aria-hidden="true">
+                  <span class="exp-glow-dot" style="top:16%; left:14%; animation-delay:0s;"></span>
+                  <span class="exp-glow-dot" style="top:32%; left:36%; animation-delay:0.7s;"></span>
+                  <span class="exp-glow-dot" style="top:12%; left:58%; animation-delay:1.5s;"></span>
+                  <span class="exp-glow-dot" style="top:28%; left:80%; animation-delay:2.2s;"></span>
+                  <span class="exp-glow-dot" style="top:10%; left:92%; animation-delay:0.4s;"></span>
+                </div>
+                <span class="exp-badge"><i class="bi bi-broadcast"></i> Current Role</span>
+                <h4>Blue Origin IT Staffing</h4>
+                <p class="timeline-role">PHP Full-Stack Developer</p>
+                <ul>
+                  <li>Built and maintaining a <strong>Staffing CRM SaaS</strong> with candidate pipeline, job tracking, client management, subscriptions, and role-based access.</li>
+                  <li>Developed <strong>SMS &amp; Email Marketing SaaS</strong> with contact management, scheduling, Twilio SMS, and SMTP email integration.</li>
+                  <li>Built a <strong>Finance SaaS</strong> for invoice tracking, expense management, reporting, and business finance workflows.</li>
+                  <li>Manage websites and CRMs across IT staffing, construction and repairs, interior work, and movers.</li>
+                  <li>Handle VPS, cPanel, WHM, WHMCS, SSL certificates, domains, and Linux server maintenance independently.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span>Twilio SMS</span>
+                  <span>SMTP</span>
+                  <span>VPS</span>
+                  <span>cPanel / WHM</span>
+                  <span>WHMCS</span>
+                  <span>SSL</span>
+                </div>
+              </article>
+
+              <article class="exp-panel" data-exp-panel="1" aria-hidden="true">
+                <div class="exp-panel-glow" aria-hidden="true"></div>
+                <div class="exp-panel-dots" aria-hidden="true">
+                  <span class="exp-glow-dot" style="top:14%; left:10%; animation-delay:1.1s;"></span>
+                  <span class="exp-glow-dot" style="top:30%; left:30%; animation-delay:0.2s;"></span>
+                  <span class="exp-glow-dot" style="top:18%; left:52%; animation-delay:1.8s;"></span>
+                  <span class="exp-glow-dot" style="top:10%; left:74%; animation-delay:0.9s;"></span>
+                  <span class="exp-glow-dot" style="top:26%; left:90%; animation-delay:2.4s;"></span>
+                </div>
+                <h4>The Brand Chimp, Hyderabad</h4>
+                <p class="timeline-role">PHP Full-Stack Developer</p>
+                <ul>
+                  <li>Built client websites using <strong>PHP, CodeIgniter 3 &amp; 4</strong>, HTML, CSS, JavaScript, and Bootstrap.</li>
+                  <li>Developed custom <strong>CRMs</strong> and business management tools for events, property management, and service businesses.</li>
+                  <li>Built a <strong>WhatsApp</strong> appointment booking tool for automated client scheduling and communication.</li>
+                  <li>Integrated <strong>AI chatbots and AI call agents</strong> using ChatGPT API, ElevenLabs, VAPI, and n8n.</li>
+                  <li>Managed server operations, UI design, client requirements, and end-to-end project delivery.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span>CodeIgniter</span>
+                  <span>WhatsApp API</span>
+                  <span>ChatGPT API</span>
+                  <span>ElevenLabs</span>
+                  <span>VAPI</span>
+                  <span>n8n</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="exp-controls">
+              <button class="exp-nav-btn exp-prev" type="button"><i class="bi bi-arrow-left"></i> Previous</button>
+              <div class="exp-dots" aria-hidden="true"><span class="is-active"></span><span></span></div>
+              <button class="exp-nav-btn exp-next" type="button">Next <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <aside class="resume-side">
+            <div class="skills-panel reveal">
+              <h3>Technical Skills</h3>
+              <div class="skills-grid">
+                <article class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-icon"><i class="bi bi-database"></i></span>
+                    <div class="skill-card-info">
+                      <h4>Backend</h4>
+                      <div class="skill-meter" data-level="92"><b></b></div>
+                    </div>
+                    <span class="skill-percent" data-count="92" data-suffix="%">92%</span>
+                  </div>
+                  <div class="skill-tags">
+                    <span>PHP</span>
+                    <span>CodeIgniter 3 & 4</span>
+                    <span>Laravel</span>
+                    <span>REST APIs</span>
+                    <span>MySQL</span>
+                  </div>
+                </article>
+
+                <article class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-icon"><i class="bi bi-window-stack"></i></span>
+                    <div class="skill-card-info">
+                      <h4>Frontend</h4>
+                      <div class="skill-meter" data-level="86"><b></b></div>
+                    </div>
+                    <span class="skill-percent" data-count="86" data-suffix="%">86%</span>
+                  </div>
+                  <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Bootstrap</span>
+                  </div>
+                </article>
+
+                <article class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-icon"><i class="bi bi-robot"></i></span>
+                    <div class="skill-card-info">
+                      <h4>AI & Automation</h4>
+                      <div class="skill-meter" data-level="82"><b></b></div>
+                    </div>
+                    <span class="skill-percent" data-count="82" data-suffix="%">82%</span>
+                  </div>
+                  <div class="skill-tags">
+                    <span>Claude</span>
+                    <span>ChatGPT API</span>
+                    <span>ElevenLabs</span>
+                    <span>VAPI</span>
+                    <span>n8n</span>
+                    <span>Vertex AI</span>
+                  </div>
+                </article>
+
+                <article class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-icon"><i class="bi bi-hdd-network"></i></span>
+                    <div class="skill-card-info">
+                      <h4>Server & DevOps</h4>
+                      <div class="skill-meter" data-level="88"><b></b></div>
+                    </div>
+                    <span class="skill-percent" data-count="88" data-suffix="%">88%</span>
+                  </div>
+                  <div class="skill-tags">
+                    <span>cPanel</span>
+                    <span>WHM</span>
+                    <span>WHMCS</span>
+                    <span>VPS</span>
+                    <span>Linux Server Management</span>
+                    <span>SSL</span>
+                    <span>Domain Setup</span>
+                  </div>
+                </article>
+
+                <article class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-icon"><i class="bi bi-palette2"></i></span>
+                    <div class="skill-card-info">
+                      <h4>Design</h4>
+                      <div class="skill-meter" data-level="78"><b></b></div>
+                    </div>
+                    <span class="skill-percent" data-count="78" data-suffix="%">78%</span>
+                  </div>
+                  <div class="skill-tags">
+                    <span>Figma</span>
+                    <span>Adobe Photoshop</span>
+                    <span>Adobe Illustrator</span>
+                    <span>Webflow</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad soft-band" id="portfolio">
+      <div class="container-xl">
+        <div class="section-title reveal">
+          <span>Portfolio</span>
+          <h2 data-split>Selected projects I have built.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured-project reveal">
+            <div class="project-mockup dashboard-preview" aria-hidden="true">
+              <div class="mock-glow"></div>
+              <div class="mock-browser-bar">
+                <div class="mock-window-dots"><span></span><span></span><span></span></div>
+                <div class="mock-search"></div>
+                <div class="mock-live-dot"></div>
+              </div>
+              <div class="mock-dashboard-shell">
+                <aside class="mock-sidebar">
+                  <span class="mock-brand"><i class="bi bi-grid-1x2-fill"></i></span>
+                  <span class="is-active"><i class="bi bi-columns-gap"></i></span>
+                  <span><i class="bi bi-person-badge"></i></span>
+                  <span><i class="bi bi-buildings"></i></span>
+                  <span><i class="bi bi-chat-dots"></i></span>
+                  <span><i class="bi bi-calendar2-week"></i></span>
+                </aside>
+
+                <main class="mock-dashboard">
+                  <div class="mock-toolbar">
+                    <div>
+                      <strong>Staffing CRM</strong>
+                      <span>Today overview</span>
+                    </div>
+                    <span class="mock-avatar">RC</span>
+                  </div>
+
+                  <div class="mock-kpis">
+                    <div class="mock-kpi kpi-blue" style="--delay: 40ms">
+                      <strong>15</strong>
+                      <span>Active Candidates</span>
+                    </div>
+                    <div class="mock-kpi kpi-violet" style="--delay: 130ms">
+                      <strong>0</strong>
+                      <span>Submissions</span>
+                    </div>
+                    <div class="mock-kpi kpi-amber" style="--delay: 220ms">
+                      <strong>4</strong>
+                      <span>Interviews</span>
+                    </div>
+                    <div class="mock-kpi kpi-green" style="--delay: 310ms">
+                      <strong>6</strong>
+                      <span>Tasks</span>
+                    </div>
+                  </div>
+
+                  <div class="mock-insights">
+                    <section class="mock-pipeline">
+                      <div class="mock-section-head">
+                        <span><i class="bi bi-funnel"></i> Pipeline</span>
+                        <b>View</b>
+                      </div>
+                      <div class="mock-pipeline-row">
+                        <span class="is-wide" style="--tone: #536dfe"><b>120</b><i></i></span>
+                        <span style="--tone: #f59e0b"><b>0</b><i></i></span>
+                        <span style="--tone: #8b5cf6"><b>22</b><i></i></span>
+                        <span style="--tone: #06b6d4"><b>0</b><i></i></span>
+                        <span style="--tone: #10b981"><b>4</b><i></i></span>
+                        <span style="--tone: #ef4444"><b>1</b><i></i></span>
+                      </div>
+                    </section>
+
+                    <section class="mock-status">
+                      <div class="mock-section-head">
+                        <span><i class="bi bi-pie-chart"></i> Status</span>
+                      </div>
+                      <div class="mock-donut"><span>25</span></div>
+                      <div class="mock-status-dots"><i></i><i></i><i></i></div>
+                    </section>
+                  </div>
+
+                </main>
+              </div>
+            </div>
+            <div class="project-content">
+              <span>CRM SaaS</span>
+              <h3>Staffing CRM Platform</h3>
+              <p>Subscription-based platform for staffing companies with candidate pipeline, job tracking, client management, multi-user role access, and dashboards.</p>
+              <div class="project-tags"><b>CodeIgniter</b><b>MySQL</b><b>SaaS</b><b>Roles</b></div>
+            </div>
+          </article>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-cart-check"></i>
+              <span>E-commerce</span>
+              <h3>E-commerce Store</h3>
+              <p>Full online store with product catalog, cart, and checkout — Razorpay and Stripe payments plus Shiprocket order shipping and fulfilment.</p>
+              <div class="project-tags"><b>Shiprocket</b><b>Razorpay</b><b>Stripe</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-megaphone"></i>
+              <span>Marketing SaaS</span>
+              <h3>SMS & Email Marketing</h3>
+              <p>Bulk campaign platform with contact lists, scheduling, Twilio SMS, and SMTP email integration.</p>
+              <div class="project-tags"><b>Twilio</b><b>SMTP</b><b>PHP</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-receipt-cutoff"></i>
+              <span>Finance SaaS</span>
+              <h3>Finance Dashboard</h3>
+              <p>Invoice tracking, expense management, reports, and financial workflow tools for small businesses.</p>
+              <div class="project-tags"><b>PHP</b><b>MySQL</b><b>Reports</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-whatsapp"></i>
+              <span>WhatsApp Tool</span>
+              <h3>Appointment Booking</h3>
+              <p>WhatsApp integration for automatic booking acceptance, confirmation, and client scheduling.</p>
+              <div class="project-tags"><b>WhatsApp API</b><b>Automation</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-buildings"></i>
+              <span>Property Platform</span>
+              <h3>UpkeeProperty.com</h3>
+              <p>Property management platform with role-based dashboards and service request workflows.</p>
+              <div class="project-tags"><b>CRM</b><b>Dashboards</b><b>Workflow</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-calendar2-event"></i>
+              <span>Events CRM</span>
+              <h3>JRNEvents.com</h3>
+              <p>Event business website with built-in CRM, invoicing, and business workflow automation.</p>
+              <div class="project-tags"><b>CRM</b><b>Invoice</b><b>PHP</b></div>
+            </article>
+          </div>
+
+          <div class="tilt-canvas">
+            <div class="tr tr-1"></div><div class="tr tr-2"></div><div class="tr tr-3"></div><div class="tr tr-4"></div><div class="tr tr-5"></div>
+            <div class="tr tr-6"></div><div class="tr tr-7"></div><div class="tr tr-8"></div><div class="tr tr-9"></div><div class="tr tr-10"></div>
+            <div class="tr tr-11"></div><div class="tr tr-12"></div><div class="tr tr-13"></div><div class="tr tr-14"></div><div class="tr tr-15"></div>
+            <div class="tr tr-16"></div><div class="tr tr-17"></div><div class="tr tr-18"></div><div class="tr tr-19"></div><div class="tr tr-20"></div>
+            <div class="tr tr-21"></div><div class="tr tr-22"></div><div class="tr tr-23"></div><div class="tr tr-24"></div><div class="tr tr-25"></div>
+            <article class="project-card reveal">
+              <i class="bi bi-soundwave"></i>
+              <span>AI Automation</span>
+              <h3>Chatbots & Call Agents</h3>
+              <p>Custom AI chatbots and call agents connected into CRMs for automated lead handling.</p>
+              <div class="project-tags"><b>ChatGPT</b><b>VAPI</b><b>n8n</b></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="testimonial">
+      <div class="container-xl">
+        <div class="section-title reveal">
+          <span>Testimonial</span>
+          <h2 data-split>Words from people who know my work.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <div class="testimonial-top">
+              <img src="assets/testimonial-krishna.png" alt="Krishna Kumar">
+              <i class="bi bi-quote quote-mark"></i>
+            </div>
+            <blockquote>Rahul's design skills are exceptional. His work reflects a keen eye for aesthetics and a commitment to user-centered design.</blockquote>
+            <figcaption>
+              <strong>Krishna Kumar</strong>
+              <span>Project Manager at Tech Mahindra</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal">
+            <div class="testimonial-top">
+              <img src="assets/testimonial-shabana.png" alt="Meer Shabana Anjum">
+              <i class="bi bi-quote quote-mark"></i>
+            </div>
+            <blockquote>Rahul's dedication to frontend development is nothing short of exceptional. His drive to create seamless, user-focused interfaces is truly admirable.</blockquote>
+            <figcaption>
+              <strong>Meer Shabana Anjum</strong>
+              <span>UI/UX Faculty at Tech Mahindra</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="contact-footer-wrap">
+    <video class="shared-bg-video" src="assets/contact_video.mp4" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="contact-shade" aria-hidden="true"></div>
+      <div class="container-xl">
+        <div class="contact-panel reveal">
+          <div class="contact-copy">
+            <span>Contact</span>
+            <h2 data-split>Have a website, CRM, SaaS, or automation idea?</h2>
+            <p>
+              I'll help you plan, build, deploy, and maintain it — a practical, full-stack approach from idea to launch.
+            </p>
+            <div class="contact-cta-actions">
+              <a class="btn btn-violet" href="https://wa.me/918099701496" target="_blank" rel="noreferrer">
+                <i class="bi bi-whatsapp"></i> Message Me
+              </a>
+            </div>
+            <div class="contact-links">
+              <a href="mailto:rahul.chitala1818@gmail.com"><i class="bi bi-envelope"></i> rahul.chitala1818@gmail.com</a>
+              <a href="tel:+918099701496"><i class="bi bi-telephone"></i> +91 80997 01496</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-shade" aria-hidden="true"></div>
+      <div class="container-xl">
+        <p>Rahul Chitala - Full-Stack Developer</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
