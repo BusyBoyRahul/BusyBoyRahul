@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="436" viewBox="0 0 1200 436" role="img" aria-label="E-commerce Store, Appointment Booking, UpkeeProperty.com, JRNEvents.com">
+  <rect x="0.75" y="0.75" width="586.5" height="204.5" rx="18" fill="#0d0b14" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+  <text x="28" y="42" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#a78bfa">E-COMMERCE</text>
+  <text x="28" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" fill="#f5f3ff">E-commerce Store</text>
+  <text x="28" y="126" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">Online store with catalog, cart and checkout, Razorpay</text>
+  <text x="28" y="151" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">and Stripe payments, Shiprocket shipping.</text>
+  <text x="28" y="184" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#f5f3ff">Razorpay<tspan fill="#a78bfa"> · </tspan>Stripe<tspan fill="#a78bfa"> · </tspan>Shiprocket</text>
+  <rect x="612.75" y="0.75" width="586.5" height="204.5" rx="18" fill="#0d0b14" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+  <text x="640" y="42" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#a78bfa">WHATSAPP · AUTOMATION</text>
+  <text x="640" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" fill="#f5f3ff">Appointment Booking</text>
+  <text x="640" y="126" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">WhatsApp booking that accepts, confirms and schedules</text>
+  <text x="640" y="151" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">client appointments automatically.</text>
+  <text x="640" y="184" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#f5f3ff">WhatsApp API<tspan fill="#a78bfa"> · </tspan>Automation</text>
+  <rect x="0.75" y="230.75" width="586.5" height="204.5" rx="18" fill="#0d0b14" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+  <text x="28" y="272" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#a78bfa">PROPERTY · PLATFORM</text>
+  <text x="28" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" fill="#f5f3ff">UpkeeProperty.com</text>
+  <text x="28" y="356" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">Property management platform with role-based</text>
+  <text x="28" y="381" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">dashboards and service request workflows.</text>
+  <text x="28" y="414" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#f5f3ff">CRM<tspan fill="#a78bfa"> · </tspan>Dashboards<tspan fill="#a78bfa"> · </tspan>Workflow</text>
+  <rect x="612.75" y="230.75" width="586.5" height="204.5" rx="18" fill="#0d0b14" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+  <text x="640" y="272" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#a78bfa">EVENTS · CRM</text>
+  <text x="640" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" fill="#f5f3ff">JRNEvents.com</text>
+  <text x="640" y="356" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">Event business website with built-in CRM, invoicing</text>
+  <text x="640" y="381" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="rgba(245,243,255,0.66)">and workflow automation.</text>
+  <text x="640" y="414" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#f5f3ff">CRM<tspan fill="#a78bfa"> · </tspan>Invoicing<tspan fill="#a78bfa"> · </tspan>PHP</text>
+</svg>
