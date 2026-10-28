@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Experience: Blue Origin IT Staffing 2026 to present, The Brand Chimp 2023 to 2025">
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="20" fill="#09080f" stroke="rgba(167,139,250,0.20)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="rgba(255,255,255,0.10)"/>
+  <rect x="40" y="39" width="36" height="2" fill="#8b5cf6"/>
+  <text x="40" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="3" fill="#a78bfa">2026 — PRESENT</text>
+  <text x="40" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-style="italic" fill="#f5f3ff">Blue Origin IT Staffing</text>
+  <text x="40" y="152" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="rgba(245,243,255,0.62)">PHP Full-Stack Developer</text>
+  <circle cx="44" cy="188" r="3" fill="#8b5cf6"/>
+  <text x="60" y="193" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Staffing CRM SaaS: pipeline, jobs, clients, subscriptions</text>
+  <circle cx="44" cy="218" r="3" fill="#8b5cf6"/>
+  <text x="60" y="223" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">SMS and email marketing SaaS with Twilio and SMTP</text>
+  <circle cx="44" cy="248" r="3" fill="#8b5cf6"/>
+  <text x="60" y="253" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Finance SaaS for invoices, expenses and reporting</text>
+  <circle cx="44" cy="278" r="3" fill="#8b5cf6"/>
+  <text x="60" y="283" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Websites and CRMs for staffing, construction, interiors, movers</text>
+  <circle cx="44" cy="308" r="3" fill="#8b5cf6"/>
+  <text x="60" y="313" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">VPS, cPanel, WHM, WHMCS, SSL and Linux maintenance</text>
+  <line x1="624" y1="40" x2="1144" y2="40" stroke="rgba(255,255,255,0.10)"/>
+  <rect x="624" y="39" width="36" height="2" fill="#8b5cf6"/>
+  <text x="624" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="3" fill="#a78bfa">2023 — 2025</text>
+  <text x="624" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-style="italic" fill="#f5f3ff">The Brand Chimp</text>
+  <text x="624" y="152" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="rgba(245,243,255,0.62)">PHP Full-Stack Developer · Hyderabad</text>
+  <circle cx="628" cy="188" r="3" fill="#8b5cf6"/>
+  <text x="644" y="193" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Client websites in PHP, CodeIgniter 3 &amp; 4 and Bootstrap</text>
+  <circle cx="628" cy="218" r="3" fill="#8b5cf6"/>
+  <text x="644" y="223" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Custom CRMs for events, property and service businesses</text>
+  <circle cx="628" cy="248" r="3" fill="#8b5cf6"/>
+  <text x="644" y="253" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">WhatsApp appointment booking tool</text>
+  <circle cx="628" cy="278" r="3" fill="#8b5cf6"/>
+  <text x="644" y="283" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">AI chatbots and call agents: ChatGPT API, ElevenLabs, VAPI, n8n</text>
+  <circle cx="628" cy="308" r="3" fill="#8b5cf6"/>
+  <text x="644" y="313" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f5f3ff" fill-opacity="0.85">Server operations, UI design and end-to-end delivery</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="I build CRMs, SaaS products and AI automations for real businesses, from the first screen to the live server. Based in Hyderabad, India. Working at Blue Origin IT Staffing. Ask me about CRMs, WhatsApp and AI agents.">
+  <defs>
+    <clipPath id="f"><rect width="1200" height="320" rx="20"/></clipPath>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/></pattern>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="1200" height="320" fill="#09080f"/>
+    <circle cx="1120" cy="0" r="320" fill="url(#g)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="19.5" fill="none" stroke="rgba(167,139,250,0.20)"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="42" font-style="italic" fill="#f5f3ff">
+    <text x="48" y="78">I build <tspan fill="#a78bfa">CRMs, SaaS products</tspan></text>
+    <text x="48" y="130"><tspan fill="#a78bfa">and AI automations</tspan> for real businesses,</text>
+    <text x="48" y="182">from the first screen to the live server.</text>
+  </g>
+  <line x1="48" y1="214" x2="1152" y2="214" stroke="rgba(255,255,255,0.10)"/>
+  <text x="48" y="246" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">BASED IN</text>
+  <text x="48" y="278" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f5f3ff">Hyderabad, India</text>
+  <text x="448" y="246" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">WORKING AT</text>
+  <text x="448" y="278" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f5f3ff">Blue Origin IT Staffing</text>
+  <text x="848" y="246" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">ASK ME ABOUT</text>
+  <text x="848" y="278" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f5f3ff">CRMs, WhatsApp, AI agents</text>
+</svg>

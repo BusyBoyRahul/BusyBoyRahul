@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="588" height="228" viewBox="0 0 588 228" role="img" aria-label="Finance Dashboard">
+  <defs>
+    <clipPath id="c"><rect width="588" height="228" rx="20"/></clipPath>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="588" height="228" fill="#110e1f"/>
+    <circle cx="540" cy="-20" r="190" fill="url(#g)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="587" height="227" rx="19.5" fill="none" stroke="rgba(167,139,250,0.20)"/>
+  <text x="28" y="40" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2.5" fill="#a78bfa">FINANCE · SAAS</text>
+  <text x="28" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#f5f3ff">Finance Dashboard</text>
+  <text x="28" y="112" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="rgba(245,243,255,0.62)">Invoice tracking, expense management, reports and</text>
+  <text x="28" y="134" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="rgba(245,243,255,0.62)">financial workflow tools for small businesses.</text>
+  <rect x="28.5" y="172.5" width="53" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <text x="54.5" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">PHP</text>
+  <rect x="91.5" y="172.5" width="68" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <text x="125" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">MySQL</text>
+  <rect x="169.5" y="172.5" width="83" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <text x="210.5" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">Reports</text>
+</svg>

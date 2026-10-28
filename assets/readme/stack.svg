@@ -1,61 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-label="Skill levels: Design 78%, Frontend 86%, Backend 92%, AI and Automation 82%, Server and DevOps 88%">
-  <defs>
-    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/>
-      <stop offset="0.5" stop-color="#c4b5fd"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.7"/>
-    </linearGradient>
-    <path id="ridge" d="M64,352.5 C78.3,343.5 98.2,316.5 150,298.5 C201.8,280.5 300.0,260.3 375,244.5 C450.0,228.8 525.0,199.5 600,204.0 C675.0,208.5 750.0,267.0 825,271.5 C900.0,276.0 998.2,232.1 1050,231.0 C1101.8,229.9 1121.7,259.1 1136,264.8"/>
-  </defs>
-  <rect width="1200" height="610" rx="18" fill="#080711"/>
-  <text x="64" y="72" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3.5" fill="#a78bfa">THE STACK</text>
-  <text x="1136" y="72" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="rgba(250,248,255,0.62)">from first sketch to live server</text>
-  <path d="M64,352.5 C78.3,343.5 98.2,316.5 150,298.5 C201.8,280.5 300.0,260.3 375,244.5 C450.0,228.8 525.0,199.5 600,204.0 C675.0,208.5 750.0,267.0 825,271.5 C900.0,276.0 998.2,232.1 1050,231.0 C1101.8,229.9 1121.7,259.1 1136,264.8 L1136,420 L64,420 Z" fill="url(#fill)"/>
-  <path d="M64,352.5 C78.3,343.5 98.2,316.5 150,298.5 C201.8,280.5 300.0,260.3 375,244.5 C450.0,228.8 525.0,199.5 600,204.0 C675.0,208.5 750.0,267.0 825,271.5 C900.0,276.0 998.2,232.1 1050,231.0 C1101.8,229.9 1121.7,259.1 1136,264.8" fill="none" stroke="url(#stroke)" stroke-width="3" stroke-linecap="round"/>
-  <line x1="64" y1="420" x2="1136" y2="420" stroke="rgba(255,255,255,0.12)"/>
-  <line x1="150" y1="306.5" x2="150" y2="420" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="2 5"/>
-  <circle cx="150" cy="298.5" r="6" fill="#080711" stroke="#a78bfa" stroke-width="2.5"/>
-  <text x="150" y="274.5" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#faf8ff">78<tspan font-size="18" font-weight="600" fill="#a78bfa" dx="2">%</tspan></text>
-  <text x="150" y="434" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa">01</text>
-  <text x="150" y="462" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Design</text>
-  <text x="150" y="488" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">Figma · Photoshop</text>
-  <text x="150" y="508" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">Illustrator · Webflow</text>
-  <line x1="375" y1="252.5" x2="375" y2="420" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="2 5"/>
-  <circle cx="375" cy="244.5" r="6" fill="#080711" stroke="#a78bfa" stroke-width="2.5"/>
-  <text x="375" y="220.5" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#faf8ff">86<tspan font-size="18" font-weight="600" fill="#a78bfa" dx="2">%</tspan></text>
-  <text x="375" y="434" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa">02</text>
-  <text x="375" y="462" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Frontend</text>
-  <text x="375" y="488" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">HTML5 · CSS3 · JS</text>
-  <text x="375" y="508" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">React · Bootstrap</text>
-  <line x1="600" y1="212" x2="600" y2="420" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="2 5"/>
-  <circle cx="600" cy="204" r="6" fill="#080711" stroke="#a78bfa" stroke-width="2.5"/>
-  <text x="600" y="180" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#faf8ff">92<tspan font-size="18" font-weight="600" fill="#a78bfa" dx="2">%</tspan></text>
-  <text x="600" y="434" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa">03</text>
-  <text x="600" y="462" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Backend</text>
-  <text x="600" y="488" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">PHP · CodeIgniter</text>
-  <text x="600" y="508" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">Laravel · REST APIs</text>
-  <text x="600" y="528" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">MySQL</text>
-  <line x1="825" y1="279.5" x2="825" y2="420" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="2 5"/>
-  <circle cx="825" cy="271.5" r="6" fill="#080711" stroke="#a78bfa" stroke-width="2.5"/>
-  <text x="825" y="247.5" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#faf8ff">82<tspan font-size="18" font-weight="600" fill="#a78bfa" dx="2">%</tspan></text>
-  <text x="825" y="434" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa">04</text>
-  <text x="825" y="462" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">AI &amp; Automation</text>
-  <text x="825" y="488" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">Claude · ChatGPT API</text>
-  <text x="825" y="508" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">ElevenLabs · VAPI</text>
-  <text x="825" y="528" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">n8n · Vertex AI</text>
-  <line x1="1050" y1="239" x2="1050" y2="420" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="2 5"/>
-  <circle cx="1050" cy="231" r="6" fill="#080711" stroke="#a78bfa" stroke-width="2.5"/>
-  <text x="1050" y="207" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#faf8ff">88<tspan font-size="18" font-weight="600" fill="#a78bfa" dx="2">%</tspan></text>
-  <text x="1050" y="434" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa">05</text>
-  <text x="1050" y="462" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Server &amp; DevOps</text>
-  <text x="1050" y="488" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">VPS · Linux · cPanel</text>
-  <text x="1050" y="508" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">WHM · WHMCS</text>
-  <text x="1050" y="528" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="rgba(250,248,255,0.62)">SSL · Domains</text>
-  <circle r="5" fill="#ffffff">
-    <animateMotion dur="9s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath xlink:href="#ridge" xmlns:xlink="http://www.w3.org/1999/xlink"/></animateMotion>
-  </circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="514" viewBox="0 0 1200 514" role="img" aria-label="Toolbox: PHP, CodeIgniter, Laravel, MySQL, React, Bootstrap, Claude, ChatGPT API, n8n, VPS, cPanel, WHM, Twilio, Figma">
+  <rect x="0.5" y="0.5" width="1199" height="513" rx="20" fill="#09080f" stroke="rgba(167,139,250,0.20)"/>
+  <text x="34" y="30" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">BACKEND</text>
+  <rect x="32.5" y="42.5" width="71" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="60.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="65" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">PHP</text>
+  <rect x="115.5" y="42.5" width="185" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="135" cy="60.5" r="3.5" fill="#8b5cf6"/>
+  <text x="149" y="65" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">CodeIgniter 3 &amp; 4</text>
+  <rect x="312.5" y="42.5" width="103" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="332" cy="60.5" r="3.5" fill="#8b5cf6"/>
+  <text x="346" y="65" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Laravel</text>
+  <rect x="427.5" y="42.5" width="120" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="447" cy="60.5" r="3.5" fill="#8b5cf6"/>
+  <text x="461" y="65" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">REST APIs</text>
+  <rect x="559.5" y="42.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="579" cy="60.5" r="3.5" fill="#8b5cf6"/>
+  <text x="593" y="65" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">MySQL</text>
+  <text x="34" y="112" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">FRONTEND</text>
+  <rect x="32.5" y="124.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="142.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="147" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">HTML5</text>
+  <rect x="131.5" y="124.5" width="79" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="151" cy="142.5" r="3.5" fill="#8b5cf6"/>
+  <text x="165" y="147" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">CSS3</text>
+  <rect x="222.5" y="124.5" width="128" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="242" cy="142.5" r="3.5" fill="#8b5cf6"/>
+  <text x="256" y="147" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">JavaScript</text>
+  <rect x="362.5" y="124.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="382" cy="142.5" r="3.5" fill="#8b5cf6"/>
+  <text x="396" y="147" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">React</text>
+  <rect x="461.5" y="124.5" width="120" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="481" cy="142.5" r="3.5" fill="#8b5cf6"/>
+  <text x="495" y="147" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Bootstrap</text>
+  <text x="34" y="194" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">AI &amp; AUTOMATION</text>
+  <rect x="32.5" y="206.5" width="95" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Claude</text>
+  <rect x="139.5" y="206.5" width="136" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="159" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="173" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">ChatGPT API</text>
+  <rect x="287.5" y="206.5" width="128" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="307" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="321" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">ElevenLabs</text>
+  <rect x="427.5" y="206.5" width="79" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="447" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="461" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">VAPI</text>
+  <rect x="518.5" y="206.5" width="71" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="538" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="552" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">n8n</text>
+  <rect x="601.5" y="206.5" width="120" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="621" cy="224.5" r="3.5" fill="#8b5cf6"/>
+  <text x="635" y="229" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Vertex AI</text>
+  <text x="34" y="276" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">SERVER &amp; DEVOPS</text>
+  <rect x="32.5" y="288.5" width="71" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">VPS</text>
+  <rect x="115.5" y="288.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="135" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="149" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Linux</text>
+  <rect x="214.5" y="288.5" width="95" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="234" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="248" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">cPanel</text>
+  <rect x="321.5" y="288.5" width="71" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="341" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="355" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">WHM</text>
+  <rect x="404.5" y="288.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="424" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="438" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">WHMCS</text>
+  <rect x="503.5" y="288.5" width="71" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="523" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="537" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">SSL</text>
+  <rect x="586.5" y="288.5" width="103" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="606" cy="306.5" r="3.5" fill="#8b5cf6"/>
+  <text x="620" y="311" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Domains</text>
+  <text x="34" y="358" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">INTEGRATIONS</text>
+  <rect x="32.5" y="370.5" width="95" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Twilio</text>
+  <rect x="139.5" y="370.5" width="79" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="159" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="173" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">SMTP</text>
+  <rect x="230.5" y="370.5" width="144" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="250" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="264" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">WhatsApp API</text>
+  <rect x="386.5" y="370.5" width="112" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="406" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="420" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Razorpay</text>
+  <rect x="510.5" y="370.5" width="95" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="530" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="544" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Stripe</text>
+  <rect x="617.5" y="370.5" width="128" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="637" cy="388.5" r="3.5" fill="#8b5cf6"/>
+  <text x="651" y="393" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Shiprocket</text>
+  <text x="34" y="440" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">DESIGN</text>
+  <rect x="32.5" y="452.5" width="87" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="52" cy="470.5" r="3.5" fill="#8b5cf6"/>
+  <text x="66" y="475" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Figma</text>
+  <rect x="131.5" y="452.5" width="120" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="151" cy="470.5" r="3.5" fill="#8b5cf6"/>
+  <text x="165" y="475" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Photoshop</text>
+  <rect x="263.5" y="452.5" width="136" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="283" cy="470.5" r="3.5" fill="#8b5cf6"/>
+  <text x="297" y="475" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Illustrator</text>
+  <rect x="411.5" y="452.5" width="103" height="36" rx="18" fill="#110e1f" stroke="rgba(167,139,250,0.20)"/>
+  <circle cx="431" cy="470.5" r="3.5" fill="#8b5cf6"/>
+  <text x="445" y="475" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" fill="#f5f3ff">Webflow</text>
 </svg>
