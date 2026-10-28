@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="mailto:rahul.chitala1818@gmail.com"><img src="https://img.shields.io/badge/Email-rahul.chitala1818@gmail.com-8b5cf6?style=for-the-badge&labelColor=080711" alt="Email"></a>
+  <a href="https://wa.me/918099701496"><img src="https://img.shields.io/badge/WhatsApp-%2B91%2080997%2001496-8b5cf6?style=for-the-badge&labelColor=080711&logo=whatsapp&logoColor=white" alt="WhatsApp +91 80997 01496"></a>
   <a href="https://github.com/BusyBoyRahul"><img src="https://img.shields.io/badge/GitHub-BusyBoyRahul-8b5cf6?style=for-the-badge&labelColor=080711&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
