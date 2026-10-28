@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="574" viewBox="0 0 1200 574" role="img" aria-label="Technical stack">
+  <rect width="1200" height="574" rx="18" fill="#080711"/>
+  <text x="64" y="72" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3.5" fill="#a78bfa">THE STACK</text>
+  <text x="1136" y="72" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="rgba(250,248,255,0.62)">five disciplines, one delivery path</text>
+  <line x1="64" y1="118" x2="1136" y2="118" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="168" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">01</text>
+  <text x="112" y="158" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#faf8ff">Backend</text>
+  <text x="112" y="182" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="rgba(250,248,255,0.62)">PHP · CodeIgniter 3 &amp; 4 · Laravel · REST APIs · MySQL</text>
+  <rect x="800" y="158" width="260" height="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="800" y="157" width="239.2" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="1136" y="165" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#faf8ff">92<tspan font-size="14" fill="rgba(250,248,255,0.62)" dx="2">%</tspan></text>
+  <line x1="64" y1="202" x2="1136" y2="202" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="252" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">02</text>
+  <text x="112" y="242" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#faf8ff">Server &amp; DevOps</text>
+  <text x="112" y="266" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="rgba(250,248,255,0.62)">VPS · Linux · cPanel · WHM · WHMCS · SSL · Domains</text>
+  <rect x="800" y="242" width="260" height="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="800" y="241" width="228.8" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="1136" y="249" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#faf8ff">88<tspan font-size="14" fill="rgba(250,248,255,0.62)" dx="2">%</tspan></text>
+  <line x1="64" y1="286" x2="1136" y2="286" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="336" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">03</text>
+  <text x="112" y="326" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#faf8ff">Frontend</text>
+  <text x="112" y="350" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="rgba(250,248,255,0.62)">HTML5 · CSS3 · JavaScript · React · Bootstrap</text>
+  <rect x="800" y="326" width="260" height="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="800" y="325" width="223.6" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="1136" y="333" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#faf8ff">86<tspan font-size="14" fill="rgba(250,248,255,0.62)" dx="2">%</tspan></text>
+  <line x1="64" y1="370" x2="1136" y2="370" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="420" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">04</text>
+  <text x="112" y="410" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#faf8ff">AI &amp; Automation</text>
+  <text x="112" y="434" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="rgba(250,248,255,0.62)">Claude · ChatGPT API · ElevenLabs · VAPI · n8n · Vertex AI</text>
+  <rect x="800" y="410" width="260" height="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="800" y="409" width="213.2" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="1136" y="417" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#faf8ff">82<tspan font-size="14" fill="rgba(250,248,255,0.62)" dx="2">%</tspan></text>
+  <line x1="64" y1="454" x2="1136" y2="454" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="504" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">05</text>
+  <text x="112" y="494" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#faf8ff">Design</text>
+  <text x="112" y="518" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="rgba(250,248,255,0.62)">Figma · Photoshop · Illustrator · Webflow</text>
+  <rect x="800" y="494" width="260" height="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="800" y="493" width="202.8" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="1136" y="501" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#faf8ff">78<tspan font-size="14" fill="rgba(250,248,255,0.62)" dx="2">%</tspan></text>
+  <line x1="64" y1="538" x2="1136" y2="538" stroke="rgba(255,255,255,0.12)"/>
+</svg>

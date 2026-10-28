@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="682" viewBox="0 0 1200 682" role="img" aria-label="Selected work">
+  <rect width="1200" height="682" rx="18" fill="#080711"/>
+  <text x="64" y="72" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3.5" fill="#a78bfa">SELECTED WORK</text>
+  <text x="1136" y="72" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="rgba(250,248,255,0.62)">built for real businesses</text>
+  <line x1="64" y1="118" x2="1136" y2="118" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="158" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">01</text>
+  <text x="112" y="159" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Staffing CRM Platform</text>
+  <text x="520" y="158" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Subscription CRM: candidates, jobs, clients, dashboards</text>
+  <text x="1136" y="158" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">CodeIgniter · MySQL · Roles</text>
+  <line x1="64" y1="184" x2="1136" y2="184" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="224" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">02</text>
+  <text x="112" y="225" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">SMS &amp; Email Marketing</text>
+  <text x="520" y="224" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Bulk campaigns, contact lists, scheduling</text>
+  <text x="1136" y="224" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">Twilio · SMTP · PHP</text>
+  <line x1="64" y1="250" x2="1136" y2="250" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="290" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">03</text>
+  <text x="112" y="291" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">Finance Dashboard</text>
+  <text x="520" y="290" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Invoices, expenses and reports for small business</text>
+  <text x="1136" y="290" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">PHP · MySQL</text>
+  <line x1="64" y1="316" x2="1136" y2="316" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="356" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">04</text>
+  <text x="112" y="357" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">E-commerce Store</text>
+  <text x="520" y="356" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Catalog, cart, checkout and shipping</text>
+  <text x="1136" y="356" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">Razorpay · Stripe · Shiprocket</text>
+  <line x1="64" y1="382" x2="1136" y2="382" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="422" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">05</text>
+  <text x="112" y="423" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">WhatsApp Booking</text>
+  <text x="520" y="422" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Automatic booking acceptance and scheduling</text>
+  <text x="1136" y="422" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">WhatsApp API</text>
+  <line x1="64" y1="448" x2="1136" y2="448" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="488" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">06</text>
+  <text x="112" y="489" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">UpkeeProperty.com</text>
+  <text x="520" y="488" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Property management with service requests</text>
+  <text x="1136" y="488" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">CRM · Workflows</text>
+  <line x1="64" y1="514" x2="1136" y2="514" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="554" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">07</text>
+  <text x="112" y="555" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">JRNEvents.com</text>
+  <text x="520" y="554" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Event site with built-in CRM and invoicing</text>
+  <text x="1136" y="554" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">CRM · Invoicing · PHP</text>
+  <line x1="64" y1="580" x2="1136" y2="580" stroke="rgba(255,255,255,0.12)"/>
+  <text x="64" y="620" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#a78bfa">08</text>
+  <text x="112" y="621" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.4" fill="#faf8ff">AI Chatbots &amp; Call Agents</text>
+  <text x="520" y="620" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(250,248,255,0.62)">Automated lead handling inside CRMs</text>
+  <text x="1136" y="620" text-anchor="end" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#a78bfa">ChatGPT · VAPI · n8n</text>
+  <line x1="64" y1="646" x2="1136" y2="646" stroke="rgba(255,255,255,0.12)"/>
+</svg>
