@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="588" height="96" viewBox="0 0 588 96" role="img" aria-label="Email rahul.chitala1818@gmail.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="130" viewBox="0 410 600 130" role="img" aria-label="Email rahul.chitala1818@gmail.com">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#6d28d9"/></linearGradient>
-    <clipPath id="c"><rect x="0" y="0" width="588" height="96" rx="48"/></clipPath>
+    <clipPath id="frame"><path d="M0 0H1200V520a20 20 0 0 1-20 20H20a20 20 0 0 1-20-20Z"/></clipPath>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="540"><stop offset="0" stop-color="#4c1d95"/><stop offset="0.55" stop-color="#7c3aed"/><stop offset="1" stop-color="#c026d3"/></linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.26"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0">
+      <stop offset="0" stop-color="#fbcfe8"/><stop offset="0.4" stop-color="#fbcfe8"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="0.6" stop-color="#fbcfe8"/><stop offset="1" stop-color="#fbcfe8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-400 0;700 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
   </defs>
-  <rect x="0.75" y="0.75" width="586.5" height="94.5" rx="47.25" fill="url(#g)" stroke="none" stroke-opacity="0.7" stroke-width="1.5"/>
-  <g clip-path="url(#c)"><rect y="0" width="70" height="96" fill="#ffffff" fill-opacity="0.22" transform="skewX(-20)"><animate attributeName="x" values="-160;700;700" keyTimes="0;0.35;1" dur="4.5s" repeatCount="indefinite"/></rect></g>
-  <g transform="translate(40 26) scale(1.8333333333333333)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#ffffff"/></g>
-  <text x="108" y="40" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#ffffff" fill-opacity="0.8">EMAIL ME</text>
-  <text x="108" y="70" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff">rahul.chitala1818@gmail.com</text>
-  <path d="M530 48h24m-9-9l9 9-9 9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="d" values="M530 48h24m-9-9l9 9-9 9;M538 48h24m-9-9l9 9-9 9;M530 48h24m-9-9l9 9-9 9" dur="2s" repeatCount="indefinite"/></path>
+  <g clip-path="url(#frame)"><rect width="1200" height="540" fill="url(#bg)"/>
+    <circle cx="960" cy="110" r="250" fill="url(#orb)"><animateTransform attributeName="transform" type="translate" values="0 0;-160 50;0 0" dur="12s" repeatCount="indefinite"/></circle></g>
+  <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="rgba(255,255,255,0.35)"/>
+  <clipPath id="pill"><rect x="20" y="434" width="560" height="84" rx="42"/></clipPath>
+  <rect x="20" y="434" width="560" height="84" rx="42" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <g clip-path="url(#pill)"><rect y="434" width="64" height="84" fill="#8b5cf6" fill-opacity="0.18" transform="skewX(-20)"><animate attributeName="x" values="-180;680;680" keyTimes="0;0.35;1" dur="4.5s" repeatCount="indefinite"/></rect></g>
+  <g transform="translate(52 454) scale(1.8333333333333333)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EA4335"/></g>
+  <text x="120" y="468" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="3" fill="#3b1a78" fill-opacity="0.75">EMAIL ME</text>
+  <text x="120" y="497" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#3b1a78">rahul.chitala1818@gmail.com</text>
+  <path d="M524 476h24m-9-9l9 9-9 9" fill="none" stroke="#3b1a78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="d" values="M524 476h24m-9-9l9 9-9 9;M532 476h24m-9-9l9 9-9 9;M524 476h24m-9-9l9 9-9 9" dur="2s" repeatCount="indefinite"/></path>
 </svg>
