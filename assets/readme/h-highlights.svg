@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="highlights">
-  <circle cx="8" cy="42" r="5" fill="#8b5cf6"/>
-  <text x="26" y="48" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" letter-spacing="4" fill="#8b5cf6">HIGHLIGHTS</text>
-  <line x1="202" y1="42" x2="1200" y2="42" stroke="#8b5cf6" stroke-opacity="0.35" stroke-width="2"/>
-</svg>

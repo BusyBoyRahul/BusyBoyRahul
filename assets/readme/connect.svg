@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-label="say-hello: Let's build something good. Have a website, CRM, SaaS or automation idea? I'll plan it, build it, deploy it and keep it running.">
+  <defs>
+    <clipPath id="frame"><rect x="0.5" y="0.5" width="1199" height="489" rx="20"/></clipPath>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/></pattern>
+    <radialGradient id="blob" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.34"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <clipPath id="cmd"><rect x="72" y="46" height="38" width="0"><animate attributeName="width" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;0" keyTimes="0;0.0475;0.0533;0.0592;0.065;0.0708;0.0767;0.0825;0.0883;0.0942;0.1;0.1058;0.9667" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="490" fill="#09080f"/>
+    <circle cx="1000" cy="260" r="300" fill="url(#blob)"><animateTransform attributeName="transform" type="translate" values="0 0;-160 -60;0 0" dur="13s" repeatCount="indefinite"/></circle>
+    <rect width="1200" height="490" fill="url(#dots)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="488.5" rx="19.5" fill="none" stroke="rgba(167,139,250,0.40)" stroke-width="1.5"/>
+  <text x="40" y="70" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="24" fill="#a78bfa">&gt;</text>
+  <text x="72" y="70" textLength="158.4" lengthAdjust="spacing" clip-path="url(#cmd)" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="24" fill="#f5f3ff">./say-hello</text>
+  <rect y="49" width="12" height="24" fill="#a78bfa" x="72"><animate attributeName="x" values="72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;72" keyTimes="0;0.0475;0.0533;0.0592;0.065;0.0708;0.0767;0.0825;0.0883;0.0942;0.1;0.1058;0.9667" calcMode="discrete" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1" calcMode="discrete" keyTimes="0;0.1225;0.1233;0.9667;0.9675" dur="12s" repeatCount="indefinite"/></rect>
+  <g opacity="0"><text x="40" y="206" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-style="italic" fill="#f5f3ff">Let's build something</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1392;0.16;0.9417;0.9667;1" dur="12s" repeatCount="indefinite"/></g>
+  <g opacity="0"><text x="40" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-style="italic" fill="#a78bfa">good.</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1808;0.2017;0.9417;0.9667;1" dur="12s" repeatCount="indefinite"/></g>
+  <g opacity="0"><text x="40" y="390" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="rgba(245,243,255,0.62)">Have a website, CRM, SaaS or automation idea? I'll plan it, build it, deploy it and keep it running.</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2392;0.26;0.9417;0.9667;1" dur="12s" repeatCount="indefinite"/></g>
+  <g opacity="0"><text x="40" y="450" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="24" fill="#a78bfa">&gt;</text><rect x="72" y="429" width="12" height="25" fill="#a78bfa"><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/></rect><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2975;0.3183;0.9417;0.9667;1" dur="12s" repeatCount="indefinite"/></g>
+</svg>
