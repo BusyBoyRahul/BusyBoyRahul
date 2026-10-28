@@ -5,17 +5,27 @@
   </defs>
   <g clip-path="url(#c)">
     <rect width="588" height="228" fill="#110e1f"/>
-    <circle cx="80" cy="-20" r="190" fill="url(#g)"/>
+    <circle cx="80" cy="-20" r="190" fill="url(#g)"><animateTransform attributeName="transform" type="translate" values="0 0;380 0;0 0" dur="9s" repeatCount="indefinite"/></circle>
+    <rect y="226" height="2" width="120" fill="#8b5cf6" fill-opacity="0.9"><animate attributeName="x" values="-120;588" dur="6s" begin="1.5s" repeatCount="indefinite"/></rect>
   </g>
   <rect x="0.5" y="0.5" width="587" height="227" rx="19.5" fill="none" stroke="rgba(167,139,250,0.20)"/>
   <text x="28" y="40" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2.5" fill="#a78bfa">EVENTS · CRM</text>
   <text x="28" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#f5f3ff">JRNEvents.com</text>
   <text x="28" y="112" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="rgba(245,243,255,0.62)">Event business website with built-in CRM, invoicing and</text>
   <text x="28" y="134" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="rgba(245,243,255,0.62)">business workflow automation.</text>
-  <rect x="28.5" y="172.5" width="53" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <rect x="28.5" y="172.5" width="53" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)">
+    <animate attributeName="stroke" values="rgba(255,255,255,0.10);#a78bfa;rgba(255,255,255,0.10);rgba(255,255,255,0.10)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="rgba(255,255,255,0.04);rgba(139,92,246,0.28);rgba(255,255,255,0.04);rgba(255,255,255,0.04)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
   <text x="54.5" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">CRM</text>
-  <rect x="91.5" y="172.5" width="98" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <rect x="91.5" y="172.5" width="98" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)">
+    <animate attributeName="stroke" values="rgba(255,255,255,0.10);#a78bfa;rgba(255,255,255,0.10);rgba(255,255,255,0.10)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="rgba(255,255,255,0.04);rgba(139,92,246,0.28);rgba(255,255,255,0.04);rgba(255,255,255,0.04)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/>
+  </rect>
   <text x="140" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">Invoicing</text>
-  <rect x="199.5" y="172.5" width="53" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <rect x="199.5" y="172.5" width="53" height="28" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)">
+    <animate attributeName="stroke" values="rgba(255,255,255,0.10);#a78bfa;rgba(255,255,255,0.10);rgba(255,255,255,0.10)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="2.9s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="rgba(255,255,255,0.04);rgba(139,92,246,0.28);rgba(255,255,255,0.04);rgba(255,255,255,0.04)" keyTimes="0;0.08;0.25;1" dur="4.5s" begin="2.9s" repeatCount="indefinite"/>
+  </rect>
   <text x="225.5" y="191" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#e9d5ff">PHP</text>
 </svg>

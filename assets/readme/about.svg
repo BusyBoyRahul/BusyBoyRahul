@@ -3,19 +3,24 @@
     <clipPath id="f"><rect width="1200" height="320" rx="20"/></clipPath>
     <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/></pattern>
     <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="0.4" stop-color="#a78bfa"/><stop offset="0.5" stop-color="#f5f3ff"/><stop offset="0.6" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-500 0;900 0" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
   </defs>
   <g clip-path="url(#f)">
     <rect width="1200" height="320" fill="#09080f"/>
-    <circle cx="1120" cy="0" r="320" fill="url(#g)"/>
+    <circle cx="1120" cy="0" r="320" fill="url(#g)"><animateTransform attributeName="transform" type="translate" values="0 0;-120 60;0 0" dur="12s" repeatCount="indefinite"/></circle>
     <rect width="1200" height="320" fill="url(#dots)"/>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="319" rx="19.5" fill="none" stroke="rgba(167,139,250,0.20)"/>
   <g font-family="Georgia, 'Times New Roman', serif" font-size="42" font-style="italic" fill="#f5f3ff">
-    <text x="48" y="78">I build <tspan fill="#a78bfa">CRMs, SaaS products</tspan></text>
-    <text x="48" y="130"><tspan fill="#a78bfa">and AI automations</tspan> for real businesses,</text>
+    <text x="48" y="78">I build <tspan fill="url(#shine)">CRMs, SaaS products</tspan></text>
+    <text x="48" y="130"><tspan fill="url(#shine)">and AI automations</tspan> for real businesses,</text>
     <text x="48" y="182">from the first screen to the live server.</text>
   </g>
   <line x1="48" y1="214" x2="1152" y2="214" stroke="rgba(255,255,255,0.10)"/>
+  <circle cy="214" r="4" fill="#a78bfa"><animate attributeName="cx" values="48;1152" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite"/></circle>
   <text x="48" y="246" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">BASED IN</text>
   <text x="48" y="278" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f5f3ff">Hyderabad, India</text>
   <text x="448" y="246" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="rgba(245,243,255,0.62)">WORKING AT</text>
