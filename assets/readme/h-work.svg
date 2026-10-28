@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="Selected work">
-  <rect x="0.5" y="0.5" width="1199" height="63" rx="16" fill="#09080f" stroke="rgba(167,139,250,0.20)"/>
-  <text x="28" y="40" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="2" fill="#a78bfa">02</text>
-  <text x="72" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#f5f3ff">Selected work</text>
-  <line x1="357" y1="32" x2="1172" y2="32" stroke="rgba(255,255,255,0.10)"/>
-  <rect x="357" y="30.5" width="36" height="3" rx="1.5" fill="#8b5cf6">
-    <animate attributeName="x" values="357;1136;357" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.6 0 0.4 1;0.6 0 0.4 1" dur="6s" repeatCount="indefinite"/>
-  </rect>
-</svg>
